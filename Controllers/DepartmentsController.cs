@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SalesWebMvc.Data;
+using System.Linq;
 
 namespace SalesWebMvc.Controllers
 {
@@ -14,7 +15,8 @@ namespace SalesWebMvc.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            var list = _context.Department.ToList(); 
+            return View(list);
         }
     }
 }
