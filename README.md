@@ -1,5 +1,5 @@
 # Crud Básico - Com Orientação a Objetos
-Sistema Web para gerenciamento básico de dados com operações de Create, Read, Update e Delete.
+Sistema Web para gerenciamento básico de dados com operações de Create, Update e Delete.
 
 # Descrição:
 Aplicação desenvolvida com foco em orientação a objetos e boas práticas de arquitetura, utilizando o padrão MVC. O sistema permite realizar operações básicas de cadastro, edição, visualização e exclusão de registros em banco de dados.
